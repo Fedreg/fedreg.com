@@ -63,14 +63,16 @@ a {
 
 .bgimage {
 
-	 width: 100%;
-  height: 100vh;
-  position: relative;
-	background: url("../media/store.jpg") no-repeat;
-	background-size: cover;
-	background-position: center center;
-	position: relative;
-
+  background-attachment:initial, initial;
+  background-clip:initial, initial;
+  background-image:linear-gradient(rgba(55, 71, 79, 0.498039), rgba(25, 40, 120, 0.298039)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/543429/me2.jpg);
+  background-origin:initial, initial;
+  background-position:50% 50%;
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:100vh;
+  position:relative;
+  width:100%;
 }
 
 
